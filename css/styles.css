@@ -24,6 +24,23 @@ header a {
   font-size: 50px;
 }
 
+section {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+article {
+  border-radius: 10px solid black;
+}
+
+section button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 footer {
   width: 100%;
   height: 100px;
