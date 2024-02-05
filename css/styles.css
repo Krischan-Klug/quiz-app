@@ -61,6 +61,7 @@ article {
 .buttons button {
   width: 70px;
   height: 50px;
+  font-family: monospace;
 }
 article {
   margin: 50px;
@@ -79,7 +80,7 @@ article {
 footer {
   width: 100%;
   height: 100px;
-  background-color: rgb(139, 139, 139);
+  background-color: rgb(255, 255, 255);
   position: sticky;
   bottom: 0;
   display: flex;
@@ -87,6 +88,7 @@ footer {
   justify-content: space-around;
   z-index: 10;
 
+  border: 1px solid black;
   font-size: 40px;
 }
 footer img {
