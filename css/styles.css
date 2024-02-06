@@ -81,6 +81,20 @@ article {
   font-family: monospace;
 }
 
+.user--profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: monospace;
+  font-size: 40px;
+  margin: 40px;
+}
+
+.user--profile--img {
+  width: 200px;
+  height: 200px;
+}
+
 footer {
   width: 100%;
   height: 100px;
